@@ -326,6 +326,36 @@
     -moz-text-fill-color: transparent;
   }
   
+  .main__content h3 {
+    font-size: 1.5rem;
+    background: #e5e5e5; /* fallback for old browsers */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  .main__content h4 {
+    font-size: 3rem;
+    background: #ff8177; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #9114ff,
+      #da22ff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #8f0eff,
+      #da22ff
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
   .main__content p {
     margin-top: 1rem;
     font-size: 2rem;
