@@ -1,6 +1,4 @@
 # Hyp3rFX.github.io
-This is hosting place for Official Editing Support's website! 
+This is hosting place for some websites! 
 
-Made with ♥︎ by HyperFX#6931
-
-© Official Editing Support 2022. All rights reserved
+🌀 portal @ hyp3rfx.github.io
