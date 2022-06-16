@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta charset="UTF-8">  
+    <title>OES | About</title>
+    <meta name="description" content="Learn about us! Meet our team, read our story, and see what were up to.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" type="image/png" href="">
+    <script src="script.js"></script>
+</head>
+    <!-- body -->
+<body>
+    <br>
+    <!-- NAV -->
+    <div class="pages" style="margin-top: -10px;">
+        <a href="/">HOME</a>
+        <a href="/products/">PRODUCTS</a>
+        <a href="/about/mafia/">MAFIA</a>
+        <a href="/about/" id="selected">ABOUT</a>
+    </div>
+
+    <!-- Info -->
+    <div class="mafia">About description</div>
+    
+<!-- FOOTER -->
+    <footer class="footer">
+        <a class="social" href="#" target="_blank">
+            <img src="/img/icons/twitter.png" alt="Twitter">
+        </a>
+        <a class="social" href="#" target="_blank">
+            <img src="/img/icons/youtube.png" alt="Youtube">
+        </a>
+        <a class="social" href="#" target="_blank">
+            <img src="/img/icons/discord.png" alt="TikTok">
+        </a>
+    </footer>
+
+    <!-- LEGAL -->
+    <div class="footer-legal">
+        Copyright © 2022 Official Editing Support. All rights reserved.
+        <a href="/legal/">Legal</a>
+        <a href="/legal/privacy.html">Privacy Policy</a>
+        <a href="/legal/terms.html">Terms of Use</a>
+    </div>
+    
+    <!-- script -->
+    <script>
+    $.get("navigation.html", function(data) {
+        $(".pages").html(data);
+        $(".pages").children().eq(0).attr("id", "selected");
+    });
+    </script>
+</body>
+</html>
